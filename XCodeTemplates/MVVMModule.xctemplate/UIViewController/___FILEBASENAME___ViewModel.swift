@@ -17,5 +17,4 @@ class ___VARIABLE_sceneName___ViewModel: BaseViewModelable {
     init(flowDelegate: ___VARIABLE_sceneName___CoordinatorDelegate) {
         self.flowDelegate = flowDelegate
     }
-
 }

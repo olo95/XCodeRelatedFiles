@@ -12,7 +12,7 @@ import RxCocoa
 class ___VARIABLE_sceneName___ViewController: ___VARIABLE_viewControllerSubclass___, BaseViewControllable {
 
     private var disposeBag = DisposeBag()
-    var viewModel: ___VARIABLE_sceneName___ViewModel
+    private let viewModel: ___VARIABLE_sceneName___ViewModel
 
     init(viewModel: ___VARIABLE_sceneName___ViewModel) {
         self.viewModel = viewModel
