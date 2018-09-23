@@ -23,13 +23,13 @@ class ___VARIABLE_sceneName___ViewController: ___VARIABLE_viewControllerSubclass
         fatalError("init(coder:) has not been implemented")
     }
 
-    override func viewWillAppear() {
-        super.viewWillAppear()
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
         customizeNavBar()
     }
 
     func customizeNavBar() {
-        
+
     }
 
     override func viewDidLoad() {
