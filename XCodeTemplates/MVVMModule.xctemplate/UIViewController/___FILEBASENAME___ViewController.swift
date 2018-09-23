@@ -11,7 +11,7 @@ import RxCocoa
 
 class ___VARIABLE_sceneName___ViewController: ___VARIABLE_viewControllerSubclass___, BaseViewControllable {
 
-    private var disposeBag = DisposeBag()
+    var disposeBag = DisposeBag()
     private let viewModel: ___VARIABLE_sceneName___ViewModel
 
     init(viewModel: ___VARIABLE_sceneName___ViewModel) {
@@ -21,6 +21,15 @@ class ___VARIABLE_sceneName___ViewController: ___VARIABLE_viewControllerSubclass
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+
+    override func viewWillAppear() {
+        super.viewWillAppear()
+        customizeNavBar()
+    }
+
+    func customizeNavBar() {
+        
     }
 
     override func viewDidLoad() {
